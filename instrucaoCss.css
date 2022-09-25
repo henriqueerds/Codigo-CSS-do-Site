@@ -1,0 +1,184 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(fundo.jpg);
+    background-attachment: fixed;
+    
+}
+header.paginicial {
+    background-image: url(hotel2.jpg);
+    background-size:1400px 400px;
+    min-height: 300px;
+    text-align:center;
+    padding-top: 30px;
+    margin-bottom: 0px;
+    color: #191050;
+}
+header.quartos{
+    background-image: url(quartos.jpg);
+	background-size:1400px 400px;
+	min-height: 300px;
+	text-align:center;
+	padding-top: 30px;
+	margin-bottom: 0px;
+	color: #040b72;
+}
+header.cadastro {
+    background-image: url(recepcao-corporativa.jpg);
+    background-size:1400px 400px;
+    min-height: 300px;
+    text-align:center;
+    padding-top: 30px;
+    margin-bottom: 0px;
+    color: #040b72;
+}
+header.parceiro {
+    background-image: url(quartos.jpg);
+    background-size:1400px 400px;
+    min-height: 300px;
+    text-align:center;
+    padding-top: 30px;
+    margin-bottom: 0px;
+    color: #040b72;
+}
+header >h1 {
+    margin-top: 50px;
+    margin-bottom: 20px;
+    font-size: 6.0em;
+    font-weight: bold;
+    font-style: italic;
+    background-color: pink;
+
+}
+header >p {
+    margin-top: 65px;
+    font-size: 1.6em;
+    font-weight: bold;
+}
+nav{
+    background-color: #191050;
+    color: #55E9EB;
+    margin: 0px;
+    margin-bottom: 0px;
+    padding: 10px;
+}
+nav >a{
+    text-decoration: none;
+    padding: 50px;
+    font-weight: bold;
+    border-radius: 5px;
+    color: inherit;
+    
+    
+}
+nav >a:hover{
+    color: #191050;
+    background-color: #54E8EB;
+    padding: 1%;
+    
+
+}
+main{
+    margin: auto;
+    margin-bottom: 30px;
+    padding: 25px;
+    color: white;
+
+}
+main h2{
+    color: #fda015;
+    background-image: linear-gradient(to right,#476A6B, transparent );
+    text-indent: 15px;
+    font-family: Comic sans-serif;
+    text-align: center;
+}
+main h3{
+    color: #fda015;
+    background-image: linear-gradient(to right,#476A6B, transparent );
+    text-indent: 15px;
+    font-family: Comic sans-serif;
+    text-align: center;
+    
+}
+main p{
+    margin: 15px 0px;
+    text-align: justify;
+    text-indent: 25px;
+    line-height: 1.8em;
+}
+main img.paginicial{
+    display: block;
+    margin: auto;
+    width: 100%;
+    height: 400px;
+    padding: 20px;
+}
+label{
+    color: white;
+}
+aside {
+    background-color:#072712f3 ;
+    padding: 10px;
+    border-radius: 10px;
+}
+aside.quarto {
+    text-indent: 15px;
+    margin: 15px 23px;
+    text-align: justify;
+    font-size: 2.1em;
+    color: white;
+}
+aside a.quarto{
+    color: inherit;
+    text-decoration: none;
+}
+aside >ul{
+    list-style-position: inside;
+    columns: 2;
+}
+aside.parceiro{
+    text-indent: 15px;
+    margin: 15px 23px;
+    text-align: justify;
+    font-size: 2.2em;
+    color: white;
+}
+
+div.cadastro{
+    width: 200px;
+    margin: 1px auto;
+}
+footer{
+    color: #54E8EB;
+    padding: 10px;
+    padding-inline: 25px;
+    text-align: center;
+    background-color: #090713;
+}
+button.quarto {
+    width: 120px;
+    height: 35px;
+    background-color: #191050;
+    color: #54E8EB;
+    border-radius: 20px;
+}
+button.cadastro{
+    width: 120px;
+    height: 35px;
+    background-color: #191050;
+    color: #54E8EB;
+    border-radius: 20px;
+}
+button.cadastro> a{
+    text-decoration: none;
+    padding: 30px;
+    font-weight: bold;
+    border-radius: 5px;
+    color: inherit;
+}
+legend{
+    color: white;
+}
